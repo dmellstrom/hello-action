@@ -4,7 +4,6 @@ on: [push]
 jobs:
   build:
     name: hello-job
-    description: A job to say hello
     runs-on: ubuntu-latest
     steps:
       # To use this repository's private action, you must check out the repository
